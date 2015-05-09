@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/hw7.iml" filepath="$PROJECT_DIR$/hw7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hw7-api/hw7-api.iml" filepath="$PROJECT_DIR$/hw7-api/hw7-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hw7-api-impl/hw7-api-impl.iml" filepath="$PROJECT_DIR$/hw7-api-impl/hw7-api-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hw7-webapp/hw7-webapp.iml" filepath="$PROJECT_DIR$/hw7-webapp/hw7-webapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hw7-webapp-exec/hw7-webapp-exec.iml" filepath="$PROJECT_DIR$/hw7-webapp-exec/hw7-webapp-exec.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hw7-webapp-it/hw7-webapp-it.iml" filepath="$PROJECT_DIR$/hw7-webapp-it/hw7-webapp-it.iml" />
+    </modules>
+  </component>
+</project>
