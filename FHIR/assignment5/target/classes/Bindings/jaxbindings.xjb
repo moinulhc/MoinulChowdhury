@@ -1,0 +1,20 @@
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb"
+          xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance"
+          xmlns:fhir="http://hl7.org/fhir"
+          xmlns:xs="http://www.w3.org/2001/XMLSchema"
+          xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc"
+          version="2.1">
+    <globalBindings generateValueClass="true">
+	<xjc:simple/>
+        <javaType name="java.util.Date" xmlType="fhir:dateTime-primitive"/>
+    </globalBindings>
+    <bindings schemaLocation="file:/C:/Users/mhchowd1/IdeaProjects/assignment5/src/main/resources/FHIR-schemas/fhir-base.xsd" version="1.0">
+        <schemaBindings>
+            <package name="org.hl7.fhir.model"/>
+        </schemaBindings>
+        <bindings node="//xs:complexType[@name='Duration']">
+            <class name="TimeDuration"/>
+        </bindings>
+    </bindings>
+
+</bindings>
